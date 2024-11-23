@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+.card-body {
+    text-align: center;
+}
+.card-body .btn {
+    display: block;
+    margin: 0 auto;
+}
+.card {
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+.testimonios .card {
+    background-color: #8cadd3;
+}
